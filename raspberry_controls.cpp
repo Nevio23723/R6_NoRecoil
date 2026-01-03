@@ -62,8 +62,11 @@ void applyRecoil(int id) {
     // ==========================================================
     case 52: // UMP
     case 58: // C1
-    case 60: // M12
       moveY = 5; moveX = 0;
+      break;
+
+    case 60: // M12
+      moveY = 6; moveX = 0;
       break;
 
     // ==========================================================
@@ -71,10 +74,12 @@ void applyRecoil(int id) {
     // 9x19VSN, T-5, Mx4 - Etwas schneller, aber stabil
     // ==========================================================
     case 55: // 9x19VSN
+      moveY = 9; moveX = 2;
+      break;
     case 62: // T-5
     case 66: // Mx4
     case 69: // UZK
-      moveY = 5; moveX = 0;
+      moveY = 8; moveX = 0;
       break;
 
     // ==========================================================
