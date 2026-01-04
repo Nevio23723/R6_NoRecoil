@@ -77,9 +77,14 @@ void applyRecoil(int id) {
       moveY = 9; moveX = 2;
       break;
     case 62: // T-5
-    case 66: // Mx4
     case 69: // UZK
       moveY = 8; moveX = 0;
+      break;
+    case 64: //K1A
+      moveY = 10; moveX = -3;
+      break;
+    case 66: // Mx4
+      moveY = 10; moveX = 0;
       break;
 
     // ==========================================================
@@ -96,6 +101,8 @@ void applyRecoil(int id) {
     // Langsame Feuerrate, hoher Schaden
     // ==========================================================
     case 5:  // 556XI
+      moveY = 14; moveX = -3;
+      break;
     case 8:  // 552 Commando
     case 20: // Para-308
     case 24: // SC3000K
@@ -190,7 +197,7 @@ void applyRecoil(int id) {
     // F2 ist ein Monster, braucht eigene Werte
     // ==========================================================
     case 6: // F2
-      moveY = 34; moveX = 3;
+      moveY = 34; moveX = 10;
       break;
 
     // ==========================================================
@@ -207,7 +214,7 @@ void applyRecoil(int id) {
     // Höchster vertikaler Zug im Spiel
     // ==========================================================
     case 101: // SMG-11
-      moveY = 50; moveX = 4;
+      moveY = 19; moveX = 4;
       break;
 
     // ==========================================================
@@ -217,6 +224,8 @@ void applyRecoil(int id) {
     case 113: // Bearing-9
     case 123: // C75
     case 124: // SMG-12
+      moveY = 23; moveX = 4;
+      break;
     case 125: // SPSMG
       moveY = 50; moveX = 4;
       break;
